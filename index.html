@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- box-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>PTE WEBSITE</title>
+  </head>
+  <body>
+    <header id="home"> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary  text-white top-fixed">
+        <div class="container-fluid text-center">
+          <a class="navbar-brand text-white" href="#">PTE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item px-4">
+                <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item px-5">
+                <a class="nav-link text-capitalize text-white" href="#about">about</a>
+              </li>
+              <li class="nav-item px-5">
+                <a class="nav-link text-capitalize text-white" href="#references">references</a>
+              </li>
+              <li class="nav-item px-5">
+                <a class="nav-link text-capitalize text-white" href="#contact">contact</a>
+              </li>
+              <div class="search-bar px-5">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button id="searchButton">Search</button>
+              </div>
+          </div>
+        </nav>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.kiec.edu.np/wp-content/uploads/2016/08/PTE.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i0.wp.com/houston.edu.np/wp-content/uploads/2021/10/399-3990213_pearson-pte-academic-logo-hd-png-download.png?w=860&ssl=1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.addoninstitutions.org/wp-content/uploads/2023/01/pte-course.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </header>
+      <section class="about my-5" id="about">
+        <div class="container">
+          <div class="text-center">
+            <h1>About <span class="text-primary">PTE</span></h1>
+            <hr / class="w-25 m-auto">
+            <div class="row my-5">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+                <h1>What is<span class="text-primary">PTE</span></h1>
+                <p>The Pearson Test of English (PTE Academic) is an English proficiency test that assesses your speaking, writing, listening and reading abilities. Many individuals must take it in order to to study abroad in an English speaking country like Australia, or when they wish to become a permanent resident of such a country. Our blog hopes to give you detailed information about how you can prepare for the PTE and feel comfortable that you know what you’re getting into!
+
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAAB6CAMAAAAF6AYEAAAAYFBMVEUgbpX///////0qcpjO2uMVapL6+/wAXIvj6u9ij6sfb5Tv8/YDZpCOqr5ShqS0x9SWscVMgqK/0NsAU4UAX4ze5ewgbZdslbCAormtwtA/fJ51m7Odt8jW4Oemvc28zNqp9Fx6AAAD6klEQVR4nO2biXaqMBBAIRCEEBcoi2LR///Ll4CVbGzWgPTN9dQeyza3E8IkguMAAAAAAAAAAAAAAAAAAAAAAABsFqJ8Iuqf1I9jeyvG1hld4V0YAp/jomw5adPX9z8xCn4E3EDxE+3I04J1eC6Io21tOqxlMDuEVyVRVF7PP1zLKPG4rbiix16T4KsVBf81FDzx8MDSd1B+H/26DuM4cDuCOKzvp8ij3dHpvfYncqXEocexterMrpjnu70E/i1heSuakz0L+1dU2FPH2Y2v/mW3PfaaIcTf41tC+WqFk+Vzzdo9fJ5Zq8fcrk3W/pIZj4sHF9wc3hds3AwJ0aDn2zc/17ds1mo94hHDCs502+cZeqTIVWJCbhzhl836/ZbMmcuvZO2VTYiH/f3+ulkfaNHzrGa1B+NQ3kLxus1CTPD869kntcbLT91I6VlO0T2jt1TEF9Xru7SsxEQ2q/cnnW9qVUzO2bEtpniJTKvcFdpkSAtWjXT1Mk1iocHuhUq6raaJZHb8ogbsihnNGjl6EGMLSjkQfJDNtP3KZpZLRCM9ZkwNfz+7SvZzotJQEbOcuaKZes7IZrbzY6LPrE1LxwVLgxJ5oW5GPtSsmSnAjtiJpNJWxVBrbLb+ULM2wExc5MvDTi1nKtsxSz2pvW3aDOO6tzVu3KwSq46LM9yDqHymGWlms+j5UWY0AZ7069k0M/52zLDOGmbPJc8BDQr4rM1LZnwnqZdoVLbVes3oPhCu1DHvGl9qjWzUh/gAQiWdOMf3ZrMCN22xG675O/lSPC9nJvxlzZoIealfXToxHuKVyvOis3JmlFvSDLlpUlVeVR3OFzFuFlquhjGvb1w7Z8gNwjyv8zB2lTF1sFdP922ZCaEgeRLL1zqyjZmZtDih3kNvzgx1iev6xTii2ozFPLO1exAtc+0MZFgarqlzen1z7tYze+QvSJvvudSkzTJz179Sa2pufm4KvOJ3Zn4SaSSWxUa+PzsTPg9Q/Cpn7D903K1bEcvnQ5ieIvKMWL0PYKbZyqMYVmrwL3ZrP72cykM1+G/d1vgMuZfdLuOvjI61lq2Z8VqfPO6OGL5JYotmD8jwLTYbNZvwHcm2zJTZgkHADMwssIxZZtqx5SpkATPkppU+K8ewWxMvYYaC0FDsx2FkNWv2zXpH1oFp4Pc+ljAzjj3RHzDT5lX+Ss56AbMXATOF/9usv79fyiz4YZ5Z0GG40yXLgzFiu2aOPFM28YkOUnjidlWhzQHhgz4Rp2J5xvHVmTL1FrLB5SYoXuzBmBkPdJD2kZOh7RYM+50QR31oZqVAAAAAAAAAAAAAAAAAAAAAAAAAgLfwD4EsS39dYlohAAAAAElFTkSuQmCC" alt="" class="rounded-circle">
+              </div>
+              <div class="social-media">
+                <a href="https://www.youtube.com/watch?v=2De1PV1a0ZI&t=633s" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>  
+      <section class="PTE-refrences py-5" id="references">
+        <div class="container">
+          <div class="text-center">
+            <h1>PTE <span class=" text-primary text-capitalize">references</span></h1>
+            <hr/ class="w-25 m-auto">
+            <div class="row my-5">
+              <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+       
+                <div class="card">
+                  <div class="card-body">
+                    <embed src="./pdf files/SWT tricks/swt.pdf" type="application/pdf">
+                    <a href="./pdf files/SWT tricks/swt.pdf" class="btn btn-primary" target="_blank">DOWNLOAD SWT tricks</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <embed src="./pdf files/pte templetes/About PTE (new).pdf" type="application/pdf">
+                      <a href="./pdf files/pte templetes/About PTE (new).pdf" class="btn btn-primary" target="_blank">DOWNLOAD PTE Discription</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <embed src="./pdf files/pte templetes/Listening- Maven (new).pdf" type="application/pdf">
+                      <a href="./pdf files/pte templetes/Listening- Maven (new).pdf" class="btn btn-primary" target="_blank">DOWNLOAD Listening</a>
+                   
+                  </div>
+                </div>
+                </div>
+              <div class="row mt-5"> 
+               <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <embed src="./pdf files/pte templetes/Reading- Maven (new).pdf" type="application/pdf">
+                      <a href="./pdf files/pte templetes/Reading- Maven (new).pdf" class="btn btn-primary" target="_blank">DOWNLOAD Reading</a>
+                   
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                  <div class="card-body text-white">
+                    <embed src="./pdf files/pte templetes/Speaking- Maven (new).pdf" type="application/pdf">
+                      <a href="./pdf files/pte templetes/Speaking- Maven (new).pdf" class="btn btn-primary" target="_blank">DOWNLOAD Speaking</a>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <embed src="./pdf files/pte templetes/Writing- Maven (new).pdf" type="application/pdf">
+                      <a href="./pdf files/pte templetes/Writing- Maven (new).pdf" class="btn btn-primary" target="_blank">DOWNLOAD Writing</a>
+                  </div>
+                </div>
+                </div>
+                <br>
+                <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-5">
+                  <div class="card">
+                    <div class="card-body">
+                      <embed src="./pdf files/REORDER PARAGRAPH/Re-order paragraph.pdf" type="application/pdf">
+                        <a href="./pdf files/REORDER PARAGRAPH/Re-order paragraph.pdf" class="btn btn-primary" target="_blank">DOWNLOAD REORDER paragraph tricks</a>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="card">
+                      <div class="card-body">
+                        <embed src="./pdf files/basic grammar/Basic grammar rules for PTE Reading FIBS and reading and writing FIBS.pdf" type="application/pdf">
+                          <a href="./pdf files/basic grammar/Basic grammar rules for PTE Reading FIBS and reading and writing FIBS.pdf" class="btn btn-primary" target="_blank">DOWNLOAD basic grammar</a>
+                      </div>
+                    </div>
+                    </div>
+                  <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-5">
+                    <div class="card">
+                      <div class="card-body">
+                        <embed src="./pdf files/framework/framework for retell lecture.pdf" type="application/pdf">
+                          <a href="./pdf files/framework/framework for retell lecture.pdf" class="btn btn-primary" target="_blank">DOWNLOAD RETELL LECTURE FRAMEWORK</a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+                </div>
+            </div>
+            </div>
+          </div>
+                </div>
+              </div>
+            </div>
+        
+      </section>
+      <br>
+      <section class="contact  py-5" id="contact">
+        <div class="container">
+          <div class="text-center">
+            <h1>Fell Free <span class="text-primary">To Connect</span></h1>
+            <hr / class="w-25 m-auto">
+        </div> 
+        <div class="row py-5"  data-aos="fade-left" data-aos-offset="200">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Nepal</option>
+                  <option>US</option>
+                  <option>CANADA</option>
+                  <option>PAKISTAN</option>
+                  <option>UK</option>
+                  <option>LONDON</option>
+                  <option>BRITAIN</option>
+                  <option>PERU</option>
+                  <option>GORGIA</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4">
+            <img src="https://www.addoninstitutions.org/wp-content/uploads/2023/01/pte-course.jpg" alt="" class="img-fluid img-thumbnail p-2 rounded-circle" >
+          </div>
+        </div>
+      </section>
+      <div class="container-fluid bg-dark text-white p-2 text-center fw-bold fs-4">Developed by Rabison Raj Shakya </div>
+      
+      <button class="light"><i class='bx bx-sun'></i></button>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="theme.js"></script>
+    <script src="search.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
